@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hotel Fazenda </title>
+    <meta charset="utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all" />
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all" />
+	
+	<link rel="stylesheet" href="css/estilos.css" media="all"/>
+	
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" >
+
+$(document).ready(function(){
+$(".thumbnail").click(function(){
+var address= $(this).attr("src");
+$("#popup").fadeIn("slow");
+$("#lightbox").attr("src",address);
+});
+$("#close").click(function(){
+$("#popup").fadeOut("fast");
+});
+});
+</script>
+
+<style type="text/css">
+
+#popup{
+background:#000000;
+height:50%;
+width: 50%;
+position:fixed;
+top: 0;
+left: 0;
+display: none;
+}
+#center{
+border: 10px solid #121212;
+margin: 6% auto;
+width: 750px;
+}
+#close{
+float: right;
+position: absolute;
+top: 12%;
+}​
+
+</style>
+
+</head>
+    
+<body>
+	<Nav class="navbar-inverse navbar-fexid-top">
+		<div class="container-fluid">
+			
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">Hotel Fazenda Recanto da Paz</a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li><a href="#quemsomos">Sobre nós </a></li>
+			
+			
+			<li><a href="#depoimentos">Depoimentos</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#endereco">Endereço</a></li>
+			<li><a href="#faleconosco">Faça sua reserva</a></li>
+			
+				  </ul>
+			
+				</div>
+			  </div>
+			</nav>
+
+			<div class="divslider" style="background-color: black;">
+					<div class="container-slider">
+						<div class="col-xs-12 hidden-xs">
+							<div id="sliderprincipal" class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100%;">
+								
+								<ol class="carousel-indicators">
+									<li class="active" data-target="#sliderprincipal" data-slide-to="0"></li>
+									<li data-target="#sliderprincipal" data-slide-to="1"></li>
+									<li data-target="#sliderprincipal" data-slide-to="2"></li>
+						 		<li data-target="#sliderprincipal" data-slide-to="3"></li>
+								</ol>
+			
+								<div class="carousel-inner" role="listbox">
+			
+									<div class="item active">
+									  <img src="imagens/hf1.jpg" alt="Imagem slider 01" style="width: 100%;" />
+									</div>
+			
+									<div class="item">
+										<img src="imagens/hf2.jpg" alt="Imagem slider 02" style="width: 100%;" />
+									</div>
+			
+									<div class="item">
+										<img src="imagens/hf3.jpg" alt="Imagem slider 03" style="width: 100%;" />
+									</div>
+								<div class="item">
+										<img src="imagens/hf4.jpg" alt="Imagem slider 04" style="width: 100%;" />
+									</div>
+								</div>
+										
+									  <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Anterior</span>
+									  </a>
+			
+									  <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Próximo</span>
+									  </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+<section id="quemsomos">
+	<div class="container">
+		<div class="col-xs-12">
+			<div class="page-header">
+				<h2>Sobre nós</h2>
+			</div>
+
+			<figure class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+				<img class="img-responsive" src="imagens/hf8.jpg" alt="Conheça o hotel fazenda recanto da paz"/>
+			</figure>
+
+			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+			Possuímos um espaço de 400.000 mts quadrados para te acolher num clima rural e aconchegante que a fazenda pode lhe oferecer. Aqui há piscina, campinho de futebol, quadra de vôlei, passeios á cavalo (cobradas à parte) e uma das quedas d’água mais famosas da região. Uma agradável trilha de 800 metros liga a hospedagem à Cachoeira.
+
+O Hotel Fazenda Recanto da Paz é perfeito para quem quer descanso e lazer em um lugar tranqüilo que possui uma beleza exuberante.
+
+Cachoeira, bica d’água, trilhas ecológicas, piscina, sala de jogos, passeio a cavalo, curral, comida típica da região feita no fogão a lenha.
+
+Os quartos casuais têm paredes de tijolo exposto e móveis de madeira rústica, Wi-Fi, TV e frigobar. Serviço de quarto disponível. Crianças de até 6 anos (uma por quarto) não pagam estadia.
+
+As cortesias incluem o estacionamento e o café da manhã, que é servido em um restaurante arejado. Outras comodidades incluem bar, piscina externa, sauna e campo de futebol.
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	</section>
+
+
+
+<section id="depoimentos">
+						<div class="container">
+							<div class="col-xs-12">
+								<div class="page-header">
+									<h2>Opinião dos clientes</h2>
+				</div>
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-3">
+						<div class="thumbnail" style="background-color: #eee;">
+						<img src="imagens/rostos/r01.jpg" class="img-thumnail"/> 
+						
+						<div class="caption">
+							<p style="font-style:oblique;">
+							Local muito aconchegante para quem quer fugir do caos da cidade. Um ótimo lazer para toda a família!
+							<p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 col-md-3">
+						<div class="thumbnail" style="background-color: #eee;">
+						<img src="imagens/rostos/r02.jpg" class="img-thumnail"/> 
+						
+						<div class="caption">
+							<p style="font-style:oblique;">
+							Minhas duas semanas no hotel foram uma das melhores da minha vida, pois a paz reina nesse local.
+							<p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-4 col-md-3">
+						<div class="thumbnail" style="background-color: #eee;">
+						<img src="imagens/rostos/r03.jpg" class="img-thumnail"/> 
+						
+						<div class="caption">
+							<p style="font-style:oblique;">
+							É um ótimo lugar para pessoas de todas as idades, pois tem a tranquilidade da fazenda e a diversão com as trilhas, cachoeira, piscinas, quadras de esportes e salão de festas.
+							<p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-4 col-md-3">
+						<div class="thumbnail" style="background-color: #eee;">
+						<img src="imagens/rostos/r04.jpg" class="img-thumnail"/> 
+						
+						<div class="caption">
+							<p style="font-style:oblique;">
+							Valeu a pena cada centavo gasto nessa viagem, pois este lugar é magnífico!
+							<p>
+								</div>
+							</div>
+						</div>
+								
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					</section>
+
+<section id="galeria">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="page-header">
+					<h2>Galeria</h2>
+				</div>
+			</div>
+		</div>
+		 
+		<div>
+			<img src="imagens/galeria/hf5.jpeg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf6.jpg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf7.jpg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf9.jpeg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf10.jpg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf11.jpg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf12.jpeg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf14.jpg" class="thumbnail" width="120" style="float:left;"/>
+			<img src="imagens/galeria/hf15.jpg" class="thumbnail" width="120" style="float:left;"/>
+		</div>
+	</div>
+</section>
+
+<div id="popup">
+	<div id="center">
+		<img id="lightbox" src="imagens/01.jpg"/>
+		<img id="close" src="imagens/close.png" alt="close"/>
+	</div>
+</div> 
+
+<section id="endereco">
+	<div class="container">
+	<div class="row">
+	<div class="col-xs-12">
+	<div class="page-header">
+	
+<h2>Endereço</h2>
+<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.9893450852396!2d-42.981401785272304!3d-22.54207188519846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b0f821659f69%3A0xb2ad19e5dc84786!2sR.+Privativa+1+-+Bananal%2C+Guapimirim+-+RJ%2C+25940-000!5e0!3m2!1spt-BR!2sbr!4v1562872281588!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			
+<section id="faleconosco">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="page-header">
+					<h2>Faça sua reserva<h2>
+				</div>
+				
+				<div class="col_xs-12">
+					<form class="form-horizontal">
+						<div class= "form-group has-info">
+							<label for="nome" class="col-xs-2 control-label">
+							Nome Completo:
+							</label>
+							<div class="col-xs-10">
+								<input type="text" class="form-control" id="nome"/>
+							</div>
+						</div>
+						
+						<p>&nbsp;</p>
+						
+						<div class= "form-group has-info">
+							<label for="email" class="col-xs-2 control-label">
+							E-mail:
+							</label>
+							<div class="col-xs-10">
+								<input type="email" class="form-control" id="email"/>
+							</div>
+						</div>
+						
+						<p>&nbsp;</p>
+
+						<p><label for="niverUser"> Data de nascimento: </label>
+						<input type="date" name="niverUser" id="niverUser" size="45"></p>
+	
+						<p>&nbsp;</p>
+	
+						<p><label>Sexo: </label>
+						<input type="radio" name="sexo" value="Masculino">Masculino
+						<input type="radio" name="sexo" value="Feminino">Feminino</p>
+						</fieldset>
+
+						<p>&nbsp;</p>
+						
+						<div class="col_xs-12">
+					<form class="form-horizontal">
+				<p><label for="niverUser"> Data da reserva: </label>
+						<input type="date" name="datareserva" id="datareserva" size="45"></p>
+						
+						<p>&nbsp;</p>
+						
+						<p><label>Tipo de quarto: </label>
+						<input type="radio" name="tipo" value="Economico">Econômico</p>
+						<input type="radio" name="tipo" value="Intermediario">Intermediário</p>
+						<input type="radio" name="tipo" value="Luxo">Luxo</p>
+						</fieldset>
+						
+						
+						
+						<div class="form-group">
+							<div class="col-xs-offset-2 col-xs-2">
+								<button type="submit" class="btn btn-success">
+									Confirmar reserva
+								</button>
+							</div>
+						</div>
+						
+						<div class="col-xs-offset-2 col-xs-2">
+							<button type="reset" class="btn btn-success">
+									Limpar
+							</button>
+						</div>
+						
+				
+						
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<footer>
+	<div class="row">
+		<div class="col-xs-12">
+			Tel: (21)26548521<br/>
+			E-mail: hfrecantodapaz@gmail.com
+		</div>
+	</div>
+</footer>
+<!-- final do footer -->
+
+<!-- fim da área de conteúdo -->
+	
+	<!-- script JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- inserindo JavaScript do Bootstrap -->
+	<!-- Última versão JavaScript compilada e minificada -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	
+</body>
+</html>
+
+
+
+
